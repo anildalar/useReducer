@@ -1,0 +1,24 @@
+useReducer
+
+
+useReducer(<reducerFunction>, <initialState>).
+
+useReducer function accept
+1. oldState
+2. Actions
+
+and return newState;
+
+Let create a simple calulator 
+
+1. oldState = 0
+2. Actions
+	2.1. Addition (+) by one value
+	2.2. Subtration ( - ) by one value
+
+Action object has 2 Part
+1. Action
+2. Payload
+
+Action Names are always writtern in CAPITAL LETTER
+Action are alway supplier in "type" property
